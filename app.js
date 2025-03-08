@@ -9,8 +9,6 @@ require('dotenv').config({
 })
 
 require('./db/mongodb')();
-
-
 var logger = require('morgan');
 var indexRouter = require('./api/routes');
 
